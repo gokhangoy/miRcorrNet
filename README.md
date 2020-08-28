@@ -17,9 +17,9 @@ In miRNA data one should have samples in the rows and microRNA names in the colu
 # Set up Parameters
 
 miRcorrNet allows you to set some parameter values. These parameters :
-*Negative Correlation Value (Default :  -0.6)
-*Positive Correlation Value (Default :  +1.0)
-*Number of Iterations       (Default :  100)
+- Negative Correlation Value (Default :  -0.6)
+- Positive Correlation Value (Default :  +1.0)
+- Number of Iterations       (Default :  100)
 
 To be able to change these parameters one need to use SetParameters node in the workflow.
 
@@ -28,12 +28,12 @@ To be able to change these parameters one need to use SetParameters node in the 
 The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME.
 
 # Solution Approach Steps
-1- Import data and set the parameters
-2- Normalize mRNA and miRNA expression data
-3- Find Differentially Expressed mRNAs and miRNAs
-4- Compute the Pearson correlation coeeficient between mRNAs and miRNAs in a pairwise manner
-5- Detect mRNAs and miRNAs target groups
-6- Rank the target gene groups
-7- Test on top ranked clusters
+1. Import data and set the parameters
+2. Normalize mRNA and miRNA expression data
+3. Find Differentially Expressed mRNAs and miRNAs
+4. Compute the Pearson correlation coeeficient between mRNAs and miRNAs in a pairwise manner
+5. Detect mRNAs and miRNAs target groups
+6. Rank the target gene groups
+7. Test on top ranked clusters
 
 ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/miRcorrNet_v2.jpg)
