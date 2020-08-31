@@ -29,6 +29,16 @@ The only thing one should do is install KNIME Analytics platform. The workflow f
 
 ## KNIME WORKFLOW
  ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Figure_4_In_CogNET_Option1.jpg)
+ 
+ - List Files Node("Node 223"): One need to give the path of directory which contains mRNA and miRNA data
+ - Table Reader("Read mRNA data") : This node finds the "mRNA .table" file in given directory and read those values and put it into a table.
+ - SetParameters Node : Via using this node one can set the parameters for the workflow.
+ - Java Edit Variable("get the corresponding miRNA name") Node : This nodes adds 'i' letter to the mRNA file(ie. A_mRNA.table -> A_miRNA.table)
+ - Table Reader("Read miRNA data") : This node finds the "miRNA .table" file in given directory and read those values and put it into a table.
+ - Row Filter("remove 5.0") Node( X2(Both mRNA and miRNA) ): If there is other than a value except two classes one need to remove that value from the class column.
+ - Column Auto Type Cast("Node 466,467") Node : Assign the columns data type automatically.
+ - Normalizer Node("Node 464,465") Node : Normalize the values via using z-score normalization.
+ - miRcorrNet Meta-Node : This metanode's task is making integrated mRNA-miRNA analysis.
 
 ## Solution Approach Steps
 1. Import data and set the parameters
