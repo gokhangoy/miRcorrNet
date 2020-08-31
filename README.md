@@ -27,6 +27,9 @@ To be able to change these parameters one need to use SetParameters node in the 
 
 The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME.
 
+## KNIME WORKFLOW
+ ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Figure_4_In_CogNET_Option1.jpg)
+
 ## Solution Approach Steps
 1. Import data and set the parameters
 2. Normalize mRNA and miRNA expression data
