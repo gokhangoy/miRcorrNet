@@ -23,13 +23,13 @@ miRcorrNet allows you to set some parameter values. These parameters :
 
 To be able to change these parameters one need to use SetParameters node in the workflow.
 
-## Usage of miRcorrNet
+## Usage of miRcorrNet and Environment Settings
 
 The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME. The miRcorrNet workflow contains python and R scripts in it so to avoid any error one need to set up the KNIME Python settings following this path inside KNIME : 
-- File -> Preferences -> KNIME(left side of the pop-up) -> Python
+- File -> Preferences -> KNIME(left side of the pop-up) -> Python <br />
 And your R server needs to open when the excetion starts. To be able to open this please use following commands in R / RStudio :
 - library(Rserve);
-- Rserve(args = "--vanilla")
+- Rserve(args = "--vanilla") <br />
 If you set all of this you'll never encounter any error with this stable version of workflow.
 
 ## KNIME WORKFLOW
