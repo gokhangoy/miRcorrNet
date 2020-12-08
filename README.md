@@ -28,7 +28,7 @@ To be able to change these parameters one need to use SetParameters node in the 
 The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME.
 
 ## KNIME WORKFLOW
- ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Workflow.jpg)
+ ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Latest_miRcorrNet_Workflow(v10).JPG)
  
  - List Files Node("Node 223"): One need to give the path of directory which contains mRNA and miRNA data
  - Table Reader("Read mRNA data") : This node finds the "mRNA .table" file in given directory and read those values and put it into a table.
