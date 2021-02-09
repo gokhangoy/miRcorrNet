@@ -23,12 +23,17 @@ miRcorrNet allows you to set some parameter values. These parameters :
 
 To be able to change these parameters one need to use SetParameters node in the workflow.
 
-## Usage of miRcorrNet
+## Usage of miRcorrNet and Environment Settings
 
-The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME.
+The only thing one should do is install KNIME Analytics platform. The workflow for miRcorrNet is available. One just download and import that workflow into KNIME. The miRcorrNet workflow contains python and R scripts in it so to avoid any error one need to set up the KNIME Python settings following this path inside KNIME : 
+- File -> Preferences -> KNIME(left side of the pop-up) -> Python <br />
+And your R server needs to be (open) running simultaneously when the execution starts. To be able to open this please use following commands in your R / RStudio:
+- library(Rserve);
+- Rserve(args = "--vanilla") <br />
+If you set all of this environment settings you'll never encounter any error with this stable version of the workflow.
 
 ## KNIME WORKFLOW
- ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Workflow.jpg)
+ ![alt text](https://github.com/gokhangoy/miRcorrNet/blob/master/Data%20Graphics/README%20Figures/Latest_miRcorrNet_Workflow(v10).JPG)
  
  - List Files Node("Node 223"): One need to give the path of directory which contains mRNA and miRNA data
  - Table Reader("Read mRNA data") : This node finds the "mRNA .table" file in given directory and read those values and put it into a table.
