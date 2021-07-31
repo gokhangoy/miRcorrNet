@@ -31,8 +31,7 @@ And your R server needs to be (open) running simultaneously when the execution s
 - library("Rserve");
 - Rserve(args = "--vanilla")
 - In addition to this to be able use rank functionality one need to use RobustRankAggreg package:
-- library("RobustRankAggreg"); 
-- <br />
+- library("RobustRankAggreg"); <br />
 If you set all of this environment settings you'll never encounter any error with this stable version of the workflow.
 
 ## KNIME WORKFLOW
