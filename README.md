@@ -30,8 +30,9 @@ The only thing one should do is install KNIME Analytics platform. The workflow f
 And your R server needs to be (open) running simultaneously when the execution starts. To be able to open this please use following commands in your R / RStudio:
 - >> library("Rserve");
 - >> Rserve(args = "--vanilla")
-In addition to this to be able use rank functionality one need to use RobustRankAggreg package:
-- >> library("RobustRankAggreg"); <br />
+- In addition to this to be able use rank functionality one need to use RobustRankAggreg package:
+- >> library("RobustRankAggreg"); 
+- <br />
 If you set all of this environment settings you'll never encounter any error with this stable version of the workflow.
 
 ## KNIME WORKFLOW
