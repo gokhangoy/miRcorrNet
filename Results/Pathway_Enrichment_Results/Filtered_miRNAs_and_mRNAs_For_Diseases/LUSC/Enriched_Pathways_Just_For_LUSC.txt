@@ -1,0 +1,14 @@
+There are 12 different enriched pathways which only appears in LUSC: 
+
+Cell cycle
+DNA replication
+Base excision repair
+Mismatch repair
+Pyrimidine metabolism
+Homologous recombination
+Progesterone-mediated oocyte maturation
+Oocyte meiosis
+Carbon metabolism
+Nucleotide excision repair
+Fanconi anemia pathway
+Biosynthesis of antibiotics

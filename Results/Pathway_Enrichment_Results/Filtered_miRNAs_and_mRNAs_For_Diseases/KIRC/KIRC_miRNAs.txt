@@ -1,0 +1,9 @@
+hsa-miR-28-3p
+hsa-miR-21-5p
+hsa-miR-106b-3p
+hsa-miR-15a-5p
+hsa-miR-210
+hsa-miR-629-5p
+hsa-miR-193a-5p
+hsa-miR-330-5p
+hsa-miR-25-3p

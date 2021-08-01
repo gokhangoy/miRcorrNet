@@ -1,0 +1,10 @@
+There are 8 different pathways which appears only in BLCA: 
+
+Prion diseases
+Retrograde endocannabinoid signaling
+Thyroid hormone signaling pathway
+Thyroid hormone synthesis
+Pathways in cancer
+Aldosterone synthesis and secretion
+GABAergic synapse
+Insulin secretion

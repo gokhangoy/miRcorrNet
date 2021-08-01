@@ -1,0 +1,17 @@
+There are 15 different enriched pathways which only appears in KIRP:
+
+Collecting duct acid secretion
+Glycosaminoglycan biosynthesis - heparan sulfate / heparin
+Fatty acid biosynthesis
+Fatty acid degradation
+Metabolic pathways
+Rheumatoid arthritis
+Protein digestion and absorption
+Vibrio cholerae infection
+Proximal tubule bicarbonate reclamation
+Endocrine and other factor-regulated calcium reabsorption
+Epithelial cell signaling in Helicobacter pylori infection
+beta-Alanine metabolism
+Arginine and proline metabolism
+Fructose and mannose metabolism
+HIF-1 signaling pathway

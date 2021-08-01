@@ -1,0 +1,8 @@
+There are 6 different enriched pathways which only appears in UCEC:
+
+Focal adhesion
+Ras signaling pathway
+Prolactin signaling pathway
+Circadian rhythm
+PI3K-Akt signaling pathway
+Jak-STAT signaling pathway

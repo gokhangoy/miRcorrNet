@@ -1,0 +1,5 @@
+There are 3 different enriched pathways which only appears in PRAD: 
+
+AMPK signaling pathway
+Adipocytokine signaling pathway
+Insulin resistance

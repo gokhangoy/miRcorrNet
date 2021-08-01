@@ -1,0 +1,8 @@
+There are 6 different enriched pathways which only appears in KICH:
+
+Glycine, serine and threonine metabolism
+Taurine and hypotaurine metabolism
+Mucin type O-Glycan biosynthesis
+TGF-beta signaling pathway
+Arachidonic acid metabolism
+Nicotine addiction
